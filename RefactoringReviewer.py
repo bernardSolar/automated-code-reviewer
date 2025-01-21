@@ -5,6 +5,7 @@ import json
 import os
 from anthropic import Anthropic
 from github import Github
+import re
 import difflib
 
 app = Flask(__name__)
